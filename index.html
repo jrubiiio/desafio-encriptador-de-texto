@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <a><img src="./assets/aluraLogo.png" alt="logo de alura"></a>
+        <a class="encabezado-texto"> <strong class="titulo-destaque">ENCRIPTADOR</strong></a>
+        <a class="encabezado-texto">DE</a>
+        <a class="encabezado-texto">TEXTO</a>
+    </header>
+
+
+    <main class="principal">
+        
+        <section class="cuadro-texto-1">
+        
+            <div class="cuadro-etiqueta">
+             <img src="./assets/signoExclamacion.png" alt="signo de exclamacion">   
+             <label class="cuadro-etiqueta-texto-1" for="input-texto">Solo minúsculas y sin acentos</label>
+            </div>
+
+            <div>
+            <input class="texto-ingresado-1" type="text" name="input-texto" id="input-texto" placeholder="Ingresa el texto que deseas encriptar / desencriptar.">
+            </div>
+
+            <div class="botones-cuadro-1">
+            <input class="boton-1" type="button" value="Encriptar" id="boton-encriptar">
+            <input class="boton-1" type="button" value="Desencriptar" id="boton-desencriptar">
+            </div>
+        
+        </section>
+
+        <section class="imagen">
+            <img src="./assets/candado.png" alt="imagen de un candado">
+        </section>    
+
+        <section class="cuadro-texto-2">
+            <label class="cuadro-etiqueta-texto-2" for="input-texto">Mensaje</label>
+            <input class="texto-ingresado-2" type="text" id="output-texto" placeholder="Ningún mensaje fue encontrado"></input>
+            <input class="boton-2" type="button" value="Copiar mensaje" id="boton-copiar">
+        </section>
+
+    </main>
+
+    <footer class="footer">Desarrollado por Jorge Rubio</footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
